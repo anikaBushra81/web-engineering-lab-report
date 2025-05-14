@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.color-box {
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* RGB format */
+.rgb {
+  background-color: rgb(255, 99, 71); /* Tomato red */
+}
+
+/* HEX format */
+.hex {
+  background-color: #1e90ff; /* Dodger blue */
+}
+
+/* HSL format */
+.hsl {
+  background-color: hsl(120, 60%, 50%); /* Bright green */
+}
